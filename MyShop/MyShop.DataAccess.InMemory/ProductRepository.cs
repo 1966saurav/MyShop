@@ -42,7 +42,7 @@ namespace MyShop.DataAccess.InMemory
 
             else
             {
-                throw new Exception("Product is not Found";
+                throw new Exception("Product is not Found");
             }
         }
 
@@ -76,7 +76,7 @@ namespace MyShop.DataAccess.InMemory
 
             else
             {
-                throw new Exception("Product is not Found";
+                throw new Exception("Product is not Found");
             }
         }
     }
