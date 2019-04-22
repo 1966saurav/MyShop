@@ -9,7 +9,7 @@ namespace MyShop.WebUI.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
         }
 
         protected override void Seed(MyShop.WebUI.Models.ApplicationDbContext context)
