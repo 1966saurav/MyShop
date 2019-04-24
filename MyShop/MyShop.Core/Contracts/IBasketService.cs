@@ -18,6 +18,8 @@ namespace MyShop.Core.Contracts
 
         BasketSummaryViewModel GetBasketSummary(HttpContextBase httpContext);
 
+        void Clearbasket(HttpContextBase httpContext);
+
 
 
     }
