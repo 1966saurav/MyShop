@@ -13,11 +13,18 @@ namespace MyShop.WebUI.Controllers
     {
         IBasketService basketService;
         IOrderService orderService;
+        private IBasketService basketService1;
 
         public BasketController(IBasketService BasketServices, IOrderService orderService) {
             this.basketService = BasketServices;
             this.orderService = orderService;
         }
+
+        public BasketController(IBasketService basketService1)
+        {
+            this.basketService1 = basketService1;
+        }
+
         // GET: Basket
         public ActionResult Index()
         {
