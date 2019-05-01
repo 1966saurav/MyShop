@@ -42,7 +42,7 @@ namespace MyShop.WebUI.Tests.Mock
             }
             else
             {
-                throw new Exception(className + "Not found");
+                throw new Exception("className" + "Not found");
             }
         }
 
@@ -55,7 +55,7 @@ namespace MyShop.WebUI.Tests.Mock
             }
             else
             {
-                throw new Exception(className + "Not found");
+                throw new Exception("className" + "Not found");
             }
         }
 
@@ -74,7 +74,7 @@ namespace MyShop.WebUI.Tests.Mock
             }
             else
             {
-                throw new Exception(className + "Not found");
+                throw new Exception("className" + "Not found");
             }
         }
     }

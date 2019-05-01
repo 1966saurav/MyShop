@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MyShop.Core.Contracts;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,8 +7,9 @@ using System.Threading.Tasks;
 
 namespace MyShop.Core.Models
 {
-   public  class Customer : BaseEntity
-    { 
+   public class Customer : BaseEntity
+    {
+      
         public string userId { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
