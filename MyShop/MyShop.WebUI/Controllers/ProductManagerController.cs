@@ -10,6 +10,8 @@ using System.IO;
 
 namespace MyShop.WebUI.Controllers
 {
+    [Authorize(Roles = "Admin")]
+
     public class ProductManagerController : Controller
     {
         IRepository<Product> context;
